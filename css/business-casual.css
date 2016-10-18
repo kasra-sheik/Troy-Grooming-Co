@@ -1,0 +1,359 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+h1,
+h2 {
+    -webkit-font-smoothing:antialiased;
+
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    position: static;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+h3 {
+    -webkit-font-smoothing:antialiased;
+
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+
+}
+h4,
+h5 {
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    position: static;
+    text-align: center;
+    //text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+
+
+}
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #fff;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+a {
+    //color: white;
+}
+
+.brand,
+.address-bar {
+    -webkit-font-smoothing:antialiased;
+
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 40px;
+    //padding:  8px;
+    background-color: rgba(38, 38, 38, .8);
+    }
+
+.productBox {
+    margin-bottom: 40px;
+    padding:  40px;
+    background-color: rgba(38, 38, 38, .8);
+
+
+}
+.contactBox {
+    padding: 8px;
+    padding-bottom: 25px;
+    background-color: rgba(38, 38, 38, .8);
+
+
+}
+.newBox {
+       //border-style: solid; 
+     //border-color: black;
+     margin-bottom: 40px;
+    padding:  30px;
+    //background: #8c6940;
+    //background: #404040;
+    
+}
+.intro-text {
+
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.intro_box {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  position: relative;
+  //top: 50%;
+  //transform: translateY(-50%);
+  margin: 0 auto;
+  height: 10vh;
+
+  width: 191vh;
+  background: #333333;
+  opacity: .8;
+
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+.scrollTopImage {
+   position: relative;
+
+}
+.photo_credit {
+    color: green;
+    font-size: 17px;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.products{
+    list-style: circle;
+    color: #fff;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.products li {
+    display: list-item;
+    font-size: 18px;
+    position: relative;
+    left: 175px;
+
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        -webkit-font-smoothing:antialiased;
+
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        margin-bottom: -30px;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+
+    }
+
+
+    .navbar {
+        border-radius: 0;
+
+    }  
+    .navbar-header {
+        display: none;  
+        background: none;
+
+
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+    .test {
+        text-align: center;
+        color: gray;
+    }
+
+    .navbar-default {
+        border: none;
+        background: none;
+    }
+
+    .nav>li>a {
+        //padding: 35px;
+
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+
+
+    }
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+
+    }
+    .navbar-default .navbar-nav > li > a {
+        -webkit-font-smoothing:antialiased;
+
+        color: white;
+        text-align: center;
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    }
+    .carousel-indicators li{
+        border: 1px solid #000;
+        background: #840;   
+    }
+    .carousel-indicators{
+        z-index: 5;
+    }
+    .tnum {
+        color: #fff;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    }
+    .tccFooter {
+        color: #fff;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin-left: 10px; 
+        margin-bottom: -15px;
+
+    }
+    .header_hoursOfOp {
+        color: #ffffff;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-size: 20px;
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+     
+    }
+    .video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+
+    
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+
+
+
+    }
+}
